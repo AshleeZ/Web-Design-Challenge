@@ -1,0 +1,78 @@
+/* navigation bar style */
+#nav-strip {
+    padding: 0px 10px;
+    background: #ffffff;
+    height: 50px;
+  }
+/* navigation bar font size */
+#navbarSupportedContent {
+    font-size: 15px;
+  }
+/* navigation bar logo background color when hovered over */
+#nav-strip a:hover {
+    background-color: #58beb9;
+  }
+/* navigation bar links background color when hovered over */
+#navbarSupportedContent a:hover {
+    background-color: #d6d7d8;
+  }
+/* navigation bar logo style */
+#logo {
+    background: #4aa09b;
+    color: #fff;
+    padding: 10px;
+    text-align:center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    height: 50px;
+    width: 110px;
+  }
+/* plots dropdown list positioning */
+.dropdown-menu {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+/* media query when screen size is shrunk */
+  @media (max-width: 800px) {
+    /* navigation bar changes color and contents of dropdowns show on top of everything else */
+    #nav-strip {
+      background: #4aa09b;
+      z-index: 9999;
+    }
+    /* navigation menu button border color */
+    #navbutton {
+      border-color: white;
+    }
+    /* navigation button background color when hovered over */
+    #navbutton:hover {
+      background-color: #d6d7d8;
+    }
+    /* plots dropdown menu border and default positioning removed */
+    #nav-strip .dropdown-menu {
+      transform: none;
+      border: none;
+    }
+    /* padding for links in menu drop down list links removed */
+    #nav-strip a.dropdown-item {
+      padding: 0px;
+    }
+    /* navigation bar drop down menu links background color when hovered over */
+    #nav-strip a:hover {
+      background-color: #d6d7d8;
+    }
+    /* plots list background color when hovered over */
+    #nav-strip a.dropdown-item:hover {
+      background-color: #d6d7d8;
+    }
+    /* padding for plots list links removed */
+    #nav-strip a.nav-link {
+      margin: 0px;
+    }
+    /* background color of body changes to white */
+    #navbarSupportedContent {
+      background-color: white;
+    }
+    /* background color of body changes to white */
+    body {
+      background: #ffffff;
+    }

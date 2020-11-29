@@ -1,0 +1,58 @@
+/* main body background color */
+body {
+    background: #e6e6e6;
+  }
+/* body text box background color and spacing */
+.text-box {
+    background: white;
+    margin: 45px 0px 45px 0px;
+    padding: 25px;
+    height: fit-content;
+  }
+/* main text box font color and size */
+h2 {
+    color: #4aa09b;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 27px;
+  }
+/* main body lower level headers color, size and alignment */
+h4 {
+    color: #4aa09b;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+  }
+/* main body text box font size and spacing */
+p {
+    font-size: 15px;
+    margin-top: 30px;
+  }
+/* main text box image spacing for landing and visualization pages*/
+.col-lg-7 img {
+    margin: auto;
+  }
+
+ img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    max-height: 100%;
+  }
+/* add border to all images when hovered over except for specific situations described below */
+img:hover {
+    border: solid 2px #4aa09b;
+  }
+/* styling for landing page main text box */
+#landing_main_img {
+    margin: 10px 20px 0px 0px;
+    height: 170px;
+    width: 170px;
+  }
+/* remove image border on */
+.col-lg-7 img:hover{
+  border: none;
+}
+
